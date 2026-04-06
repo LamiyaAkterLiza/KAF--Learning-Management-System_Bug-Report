@@ -1,0 +1,40 @@
+Project Name,Project Link,Bug ID,Bug Title,Description,Steps to Reproduce,Expected Result,Actual Result,Severity,Priority,QA Status,DEV Status,Attachment,Reported By,Final_Status
+,"
+",Ar.V-01,Sign In Button Not Translated & Password & Eye Icon Misaligned in Arabic Version,"In the Arabic version of the application, the Sign In button is still displayed in English. Additionally, the password visibility (eye) icon is not positioned correctly","1. Switch the application language to Arabic.
+2. Navigate to the Login/Sign In page.
+3. Observe the Sign In button text and password field.","The Sign In button should be translated into Arabic.
+
+The password eye icon should be properly aligned according to RTL layout.","The Sign In button remains in English.
+
+The password eye icon is incorrectly positioned.",Major,High,New,New ,https://drive.google.com/file/d/18V00blkU_pXj2nEapiATsyBUni2Tv6PC/view?usp=drive_link,Lamiya QA,
+,,Ar.V-02,Language Toggle Incorrectly Defaults to English When Site is in Arabic,"When the website is loaded with Arabic as the default language, the language toggle incorrectly shows English (ENG) ","1. Go to website 
+2. The website default language to Arabic.
+3. Observe the language toggle selection.",The language toggle should automatically select and display Arabic as the active language.,"The language toggle incorrectly shows English (ENG) as selected, even though the site content is in Arabic.",Minor,High,New,New ,https://drive.google.com/file/d/1vR7GTeIQHkqFlO9gCI81HwGbrQFwgUAI/view?usp=drive_link,Lamiya QA,
+,,Ar.V-03,Logout Popup Not Translated in Arabic Version,"In the Arabic version of the application, the logout confirmation popup is still displayed in English instead of Arabic.","1.Switch the application language to Arabic.
+2. Click on the Logout button.
+3. Observe the logout confirmation popup.",The logout popup should be fully translated into Arabic.,The logout popup is displayed in English.,Critical,High,New,New ,https://drive.google.com/file/d/1aK-UnDDiUWsRhHvnqavPnlLJ9bzJjWnQ/view?usp=drive_link,,
+,,Ar.V-04,Footer Section Not Fully Translated in Arabic Version,"In the Arabic version of the website, the footer section is not completely translated. Some texts are still displayed in English,","1. Switch the website language to Arabic.
+2. Scroll down to the footer section.
+3. Observe the text content.",All footer section content should be fully translated into Arabic.,Some parts of the footer are still shown in English.,Minor,High,New,New ,https://drive.google.com/file/d/1a0sQcBz1iDTMgtISlCkq1dM5n4enlDAW/view?usp=drive_link,Lamiya QA,
+,,Ar.V-05,Video Timing Position Misaligned,The video timing/duration indicator is not positioned correctly on the video player UI. This causes misalignment and affects the user experience.,"1. login website as student
+2. click course
+3. view course details
+4. Observe vedio time position",The video timing should be properly aligned within the video player,The video timing is incorrectly positioned and overlapping.,Major,High,New,New ,https://drive.google.com/file/d/1sybmCLzIo8qEqJ2WpABsv0F5XPdWI6E7/view?usp=drive_link,Lamiya QA,
+,,Ar.V-06,Login & Logout Success Popups Not Translated in Arabic Version,"In the Arabic version of the application, the login and logout success popups are still displayed in English instead of Arabic.","1. Switch the application language to Arabic.
+2. Perform a login action.
+3. Observe the success popup message.
+4. Perform a logout action.
+5. Observe the success popup message.",Both login and logout success popups should be fully translated into Arabic.,The success popup messages are displayed in English.,Major,High,New,New ,"https://drive.google.com/file/d/10WcPhzTqeg7GlQvdZaeVY5OpRbCOGVda/view?usp=drive_link
+
+https://drive.google.com/file/d/1XkC7gGZJ4iOc2UyqWz2HVQdCfkw23clj/view?usp=drive_link",,
+,,Ar.V-07,“Connect Now” Button & Logo to Be Partially Hidden(website),"In the Contact Us section, when clicking the “Connect Now” button, the UI layout breaks and results in the button and logo being partially hidden.","1. Navigate to the Contact Us page.
+2. Click on the “Connect Now” button.
+3. Observe the layout after clicking.",The button and logo should remain fully visible and properly aligned.,The button and logo become partially hidden after clicking “Connect Now.”,Major,High,New,New ,https://drive.google.com/file/d/10dbyQw1JzSUaX5UJocdVnEG9NGwDivp6/view?usp=drive_link,Lamiya QA,
+,,Ar.V-08,Manual Subscriber Form – “Assign Plan” Button Not Translated in Arabic Version(admin panel),"In Subscriber Management, when clicking Manual Subscriber, the form that opens displays the “Assign Plan” button in English even when the site language is set to Arabic.","1. Navigate to Subscriber Management.
+2. Click on Manual Subscriber to open the form.
+3. Observe the Assign Plan button.",The Assign Plan button should be fully translated into Arabic when the site language is Arabic.,The Assign Plan button remains in English.,Minor,High,New,New ,https://drive.google.com/file/d/144Q36glqZb0Oc5dyTYZxcA5TTKm9U9U_/view?usp=drive_link,Lamiya QA,
+,,Ar.V-09, “About” Section Not Translated in Arabic (Admin & Org Panel),"In the Organization Panel, Course Management → Course Overview, the “About” section is not translated into Arabic when the language is set to Arabic.","1. Log in to the Organization Panel.
+2. Navigate to Course Management.
+3. Click on any course.
+4. Open the Course Overview page.
+5. Check the “About” section content.",The “About” section should be fully translated into Arabic when the selected language is Arabic.,The “About” section remains in English.,Minor,High,New,New ,https://drive.google.com/file/d/18hldZQMKHX712IDGbILTi7IZhfYv8y8a/view?usp=drive_link,Lamiya QA,

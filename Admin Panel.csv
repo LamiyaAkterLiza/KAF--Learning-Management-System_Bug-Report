@@ -1,0 +1,79 @@
+ Project Name,Project Link,Bug ID,Bug Title,Description,Steps to Reproduce,Expected Result,Actual Result,Severity,Priority,QA Status,DEV Status,Attachment,Reported By,Final_Status
+KAF- Learning Management System (Admin Panel),"https://kaflms.razinsoft.com/admin
+
+
+
+email: admin@kaflms.com
+Pass: secret 
+",AD-01,Chapter Can Be Created with Negative Duration Value,"While creating a chapter, the system allows to enter a negative value in the duration field and still successfully create the chapter.","1. In course management- click chapter
+2. Fill in all the required fields
+3. Enter a negative value in the set duration field (e.g., -10)
+4. Click on the Create button","The system should display an error message (e.g., “Duration must be a positive number”)",The chapter is successfully created even when a negative duration value is provided.,Critical,High,Re-test,Fixed ,"https://drive.google.com/file/d/1WqFYNdNMslJRQRrRQwHcQoJEM5ogxBqJ/view?usp=drive_link
+
+
+
+
+https://drive.google.com/file/d/1tEnnlDHN_zbC7qd7XmsSu5JEcGWZxvIj/view?usp=drive_link",Lamiya QA,Done
+,,AD-02,No Phone Number Validation in Organization Sign-Up Form,"The phone number field in the organization sign-up form does not have any validation or limitation. Users can enter invalid  short phone numbers, and they succesfully registered ","1. Go to the Organization Sign-Up page
+2. Enter an invalid phone number (e.g., too short)
+Fill in the rest of the required fields
+Click on the Sign-Up button","The system should validate the phone number (e.g., correct length, numeric format) and show an error message if the input is invalid.",The form accepts short input in the phone number field without validation and allows successful sign-up.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1h2jzQ-bAQ4_-JpMIoaGRmWNamgp-4-N2/view?usp=drive_link,Lamiya QA,Done
+,,AD-03,Admin login page,"re-design, add forget pssword , add create account link",1. admin login page,re-design should be perfect as expected,,Critical,High,Re-test,Fixed ,,Lamiya QA,
+,,AD-04,Incorrect Option Labels in Question Paper,"In the question paper, True/False type questions are displayed with “Yes” and “No” options instead of the correct “True” and “False” labels. This may confuse users and does not match the expected format for such question types.","1. Go to login as student 
+2. click my course
+3. click play now
+4. click start exam
+5. observe the true/ false options",The options should be displayed as “True” and “False”.,The options are displayed as “Yes” and “No” instead of “True” and “False”.,Minor,High,New,New ,https://drive.google.com/file/d/16-W5-QwBA9_dzKvTi2pVNt_w7wRg3S5j/view?usp=drive_link,Lamiya QA,
+,,AD-06,Unnecessary Language Option (BN) Displayed in Language Selector in admin panel,"The language selector currently displays three options: English (EN), Arabic (AR), and Bengali (BN). However, only English and Arabic should be available. ","1. Open the admin panel
+2. Click on the language selector dropdown
+3. observe the available language options",Only “English (EN)” and “Arabic (AR)” should be displayed in the language selector.,“Bengali (BN)” option is also displayed along with English and Arabic.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1aRGJNVoZd3rL8ZSEaMd0sEpFb5XNQ1h1/view?usp=drive_link,Lamiya QA,
+,,AD-07, Incorrect Tab Title Displayed (KAF LMS Instead of KAF),"When opening the application in a new browser tab, the tab title is displayed as “KAF LMS” instead of the expected “KAF”. This does not match the intended branding.","1. Open the application in a browser
+2. Open it in a new tab
+3. Check the tab title",The tab title should be displayed as “KAF”.,The tab title is displayed as “KAF LMS” ,Critical,High,Re-test,Fixed ,https://drive.google.com/file/d/1GH6y9mVf1AFH4maa0LOWbH-pcYdai0Kx/view?usp=drive_link,Lamiya QA,
+,,AD-08,Video Preview Not Working Properly,The video preview feature is not functioning as expected. Users are unable to properly view the preview of the video before accessing or playing the full content.,"1. In course management, click course
+2. Click new course
+3. upload any video with fill all required fields 
+4. Click create
+5. Observe the vedio section",The video preview should be display the correct content.,The video preview does not display properly.,Major,High,New,New ,https://drive.google.com/file/d/16pxGL9CQujP5Oj0YdgoS-VzP7WvFhfpc/view?usp=drive_link,Lamiya QA,
+,,AD-09,Incorrect Total Transaction Amount Calculation ,"In the admin panel, the total transaction amount is not being calculated accurately. The displayed total does not match the sum of individual transactions, which may lead to incorrect financial reporting.","1. Go to the Admin Panel dashboard 
+2. Navigate to the Transactions section
+3. Check the total transaction amount
+4. Compare it with the sum of individual transaction records",The total transaction amount should accurately reflect the sum of all listed transactions.,The total transaction amount is incorrect and does not match the actual sum of transactions.,Critical,High,Re-test,Fixed ,https://drive.google.com/file/d/1y4bIJdZ9qxDD1HE66oCBvrMmPsId2TGN/view?usp=drive_link,Lamiya QA,
+,,AD-10,New Subscribers Not Displayed at the Top of the List,"In the subscriber list, newly added subscribers are not shown at the beginning of the list. This makes it difficult to quickly identify the most recent subscribers.","1. In subcriber management, cick subscrbe list 
+2. Go to the Subscriber List page
+3. Observe the position of the newly added subscriber",New subscribers should be displayed at the top of the list.,New subscribers are shown at the end of the list,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/157iQwXmgQZ_dnW3ILJjeGeqVY4msqcg_/view?usp=drive_link,Lamiya QA,
+,,AD-11,Course Management – Hide Specific Fields on Course Overview Page,"On the Course Overview page in Course Management, several elements are currently visible that should be hidden. These include: Regular Price, Offer Price, Total Transactions, Course Price","1. Go to Org panel
+2. In course management, click course
+3. click course for course overview
+4. Observe the course overview page","The following fields and buttons should be hidden on the Course Overview page:
+Regular Price, Offer Price Total Transactions, Course Price",All the above fields currently visible.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1cYKSMCFwvyK7ATkeK6rGapX0Ga4k42p3/view?usp=drive_link,Lamiya QA,
+,,AD-12,Admin Panel – Student Login Redirects to Bad Gateway,"When a student tries to log in using their credentials in the Admin Panel, the system fails to handle the login and redirects to a Bad Gateway (502) error page.","1. Navigate to the Admin Panel login page.
+2. Enter valid student credentials.
+3. Click Login.
+4. Observe the resulting page.",The system should display a proper access denied message or prevent login gracefully.,The system redirects to a Bad Gateway (502) error page.,Major,High,New,New ,https://drive.google.com/file/d/1HyNhRJyXoeK81ZX68Cs0HP_qml1JpA5H/view?usp=drive_link,Lamiya QA,
+,,AD-13,FAQ Page Redirects to Access Denied,"In the admin panel, clicking on the FAQ option under Legal Pages redirects to an ""Access Denied"" page instead of opening the FAQ management page.","1. Log in to the admin panel
+2. Go to Legal Pages
+3. Click on FAQ","The FAQ page should open successfully, allowing the admin to view or manage FAQs.","The system redirects to an ""Access Denied"" page.",Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1TPkBH5NcXAdJu-81iOXNvz_TumpmVxVj/view?usp=drive_link,,
+,,AD-14,"""502 Bad Gateway"" Error on Invalid Currency Update","When updating System Information with an invalid currency value, the system redirects to a “502 Bad Gateway” page.","1. Go to admin panel
+2. click settings management 
+3.click business setting
+4. Enter an invalid currency value
+5 Click update","A proper validation error message should be shown (e.g., “Invalid currency value”)",System redirects to a “502 Bad Gateway” error page,Critical,High,New,New ,https://drive.google.com/file/d/1RdLpCWIFwAaKoP_1sNjU1eQrGI3fuCfB/view?usp=drive_link,Lamiya QA,
+,,AD-15,Admin Cannot update Own Permissions,"In the admin panel, the admin is unable to set or update permissions for their own account.","1. Log in as admin
+2. Go to Role & Permission settings
+3. Try to update own permissions",Admin should be able to set or update their own permissions,Admin cannot set or update their own permissions,Critical,High,Re-test,Fixed ,https://drive.google.com/file/d/1-RpfyuW0HLp9hzDb9_D82ma3dC18QsyC/view?usp=drive_link,Lamiya QA,
+,,Ad-16,Error When Admin Updates Role & Permission for Organization,"When the admin tries to set or update roles and permissions for an organization and clicks the update button, an error occurs.","1. Log in as admin
+2. Go to Role & Permission settings
+3. Select an organization
+4. Set or update roles and permissions
+5. Click “Update”",Roles and permissions should be updated successfully,Got error after clicking the “Update” button,Critical,High,Re-test,Fixed ,https://drive.google.com/file/d/1kwrWBJy8L2J6MkLo0V8hQkxwfOwl9cUV/view?usp=drive_link,Lamiya QA,
+,,AD-17,Error When Searching Subscriber by ID in subscriber list,"When searching a subscriber by ID in the subscriber list, the system shows an error:
+“HTTP 500 Internal Server Error”.","1. Go to Subscriber List
+2. Search by subscriber ID
+3. Observe the result",Subscriber details should be shown correctly based on the searched ID,System shows error: “Call to undefined method App\Models\Subscriber::user()”,Critical,High,New,New ,https://drive.google.com/file/d/1-IzdjB2lousbsCjB62OzDGv-wy1_NSld/view?usp=drive_link,Lamiya QA,
+,,AD-18,Payment Bypass via Receipt Upload Without Validation in manual subscriber,"In the manual subscriber process, any uploaded image as a payment receipt is accepted without validation, and the system assigns a paid plan instantly. This allows users to bypass actual payment verification.","1. Go to Admin panel
+2. Click Subscriber management
+3. Click Manual Subscriber section
+4. Add a new subscriber
+5. Upload any random image as receipt
+6. Click Assign Plan",Receipt should be verified and plan assigned only after approval,Any image is accepted and paid plan is assigned instantly,Critical,High,New,New ,,Lamiya QA,

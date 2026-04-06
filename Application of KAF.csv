@@ -1,0 +1,104 @@
+Student Credential,Bug ID,Module,Bug Title,Description,Steps to Reproduce,Expected Result,Actual Result,Severity,Priority,QA Status,Mobile DEV Status,Backend DEV Status,Attachment,Reported By,Final_Status
+"Email: lamiyarazinsoft@gmail.com
+
+Pass: secret123",APK_BS01,On Boarding Screen,Language and Country Flag Mismatch on boarding screen,"When the app is opened, the default language is set to Arabic (AR), but the country flag displayed on the landing page is English (ENG). ","1. Open the app
+2. Observe the default language
+3. Check the country flag shown","The country flag should match the default language (Arabic → Arabic flag, English → English flag).","The app language is Arabic (AR), but the country flag is set to English (ENG).",Major,High,New,Fixed ,,https://drive.google.com/file/d/1aDPRwWowpC2KUyeMrNM5bSbm5eVM43KY/view?usp=drive_link,Lamiya QA,
+,APK_BS02,,"UI Issues – Button Misalignment, Language Toggle Design Mismatch & Blurry Logo and alingment","On the homepage UI, the “Start Learning”, ""Next"", ""Get Started"" button are  positioned too low (pushed downward), and the language toggle design/placement does not match the expected UI design also logo is blur and not aligned","1. Open the homepage.
+2. Observe the “Start Learning”, ""Next"", ""Get Started"" button position.
+3. Check the language toggle (EN dropdown) at the top.
+4. observe logo position","The “Start Learning”, ""Next"", ""Get Started"" button should be properly aligned and not pushed too far down.
+
+The language toggle design should match the expected UI design.
+
+The logo should be aligned, clear and sharp (not blurry).","The ""“Start Learning”, ""Next"", ""Get Started"" button  is pushed too far down (misaligned).
+
+The language toggle does not match the expected design.
+
+The logo appears blurry and misaligned",Major,High,New,Fixed ,,"https://drive.google.com/file/d/1mo7OVkuisVqDqjK_1Y-LDvk4K4CnDGZ0/view?usp=drive_link
+
+https://drive.google.com/file/d/12rGeSCnJxhIcS0dc6lqmR9-JG_HcY89d/view?usp=drive_link
+
+https://drive.google.com/file/d/1Prn7kEx8PMHmYGr88GI4es56GUrZFlMc/view?usp=drive_link",Lamiya QA,
+,APK_LP02,Login Page,Login Page – Invalid Error Message Displayed,"On the Login page, an invalid error message is being displayed, which may be unclear, incorrect, or not user-friendly.","1. Navigate to the Login page.
+2. Enter incorrect or incomplete credentials.
+3. Click on the Login button.
+4. Observe the error message.","A clear and user-friendly error message should be displayed (e.g., “Invalid email or password”).","""Invalid credentials""  error message is displayed.",Major,High,New,Fixed ,New ,"https://drive.google.com/file/d/1j7nxr7pDoDcsdG67Sj0O_rUeedIkutMj/view?usp=drive_link
+
+https://drive.google.com/file/d/1Mj4FKsKJgYijCC3vn4fUEIJGtKipkdIt/view?usp=drive_link",Lamiya QA,
+,APK_LP03,,Recover Password Page – Invalid Error Message Displayed,"On the Recover Password page, unclear error message is displayed when input a invalid email. This affects user understanding and experience.","1. Go to ligin page
+2. Click Forgot Password 
+3. Enter an invalid or empty email.
+4. Click on the ""Proceed next"" button.
+5. Observe the error message.",Should show message “Please enter a valid email address” or “Email is required”),"""The reset token field is required & one more error"" msg showed which is unclear",Major,High,New,New ,New ,https://drive.google.com/file/d/14ISttU0BZ2o8KnTMwVLQjLPbR1QN7KPf/view?usp=drive_link,Lamiya QA,
+,APK_LP04,,Invalid Error Popup Message for Wrong Code Entry,"When a user enters an incorrect code, the system shows a generic “Invalid error” popup message, which is unclear and not user-friendly.","1. Go to first time login as student in KAF application
+2. Enter valid credential and click login 
+3. Enter an incorrect otp
+4. Click confirm OTP
+5. observe the eror message","A clear and specific error message should be displayed (e.g., “Incorrect code. Please try again.”).", “NoSuchMethodError:The methodd'[]'was called on null.” popup message is shown.,Major,High,New,New ,New ,https://drive.google.com/file/d/13XTRbf1tHdJkdbGOYk-AA_N3k1us23pB/view?usp=drive_link,Lamiya QA,
+,APK_LP05,,Unclear Error Message on Login Without Internet Connection,"When a student attempts to log in without internet connection, the system displays error popup message, which does not indicate the actual issue.","1. Turn off internet connection
+2. Open the app
+3. Try to log in as a student
+4. Observe the error message","A clear and user-friendly message should be shown (e.g., “No internet connection. Please check your network and try again.”).",An unclear error popup message is displayed ,Major,High,New,New ,New ,https://drive.google.com/file/d/1nJZcsnFbzSjW8E0Ib6zFaTsOULJeJzLN/view?usp=drive_link,,
+,APK_LP06,,Sign Up Button Should Be Hidden for Students,"The Sign Up button is currently visible in the app, but students are not allowed to sign up. This creates confusion for users.","1. Open the app
+2. Navigate to the login page
+3. Observe the Sign Up button",The Sign Up button should be hidden for students since they do not need to sign up.,"The Sign Up button is visible, even though student registration is not required.",Major,High,New,New ,New ,,,
+,APK_HP07,HomePage,Search Icon Alignment Issue,The search icon is not positioned correctly in the UI. It appears misaligned and does not match the expected design layout.,"1. Go to login in KAF app
+2.  observe the top of homepage
+3. Locate the search icon
+4. Observe the position of the search icon",The search icon should be properly aligned the search field according to the design ,The search icon is misplaced and does not align with the search field properly.,Major,High,New,Fixed ,New ,https://drive.google.com/file/d/1KVh18HpqO4wfI4CX4LXnQXEjkiff5uOc/view?usp=drive_link,Lamiya QA,
+,APK_MC08,My Courses,Course Thumbnail Missing in My Courses Page,"In the “My Programs” section, course thumbnails are not displayed on the “My Courses” page, making it difficult for users to visually identify courses.","1. Log in as a student
+2. Go to “My Programs”
+3. Navigate to the “My Courses” page
+4. Observe the course list",Each course should display with the course thumbnail image,Course thumbnails are missing from the “My Courses” page.,Major,High,New,New ,New ,https://drive.google.com/file/d/1b6ucFIs8BkUR1mp5tvZj1nEuIsvloUqy/view?usp=drive_link,Lamiya QA,
+,APK_MC09,,Invalid Message Displayed When Clicking on a Course,"When a user clicks on any course, the system shows the message: “The course is a part of a subscription”.","1. Log in as a student
+2. Navigate to any course in the course list
+3. Click on the course",Should not be displayed any message.,"The message “The course is a part of a subscription” is displayed, even when it is not relevant.",Major,High,New,New ,New ,https://drive.google.com/file/d/14KdCRZKtwPEEVj2puo1Q6wXQbq6JHXZa/view?usp=drive_link,Lamiya QA,
+,APK_MC10,,My Courses Page Design Mismatch with Expected Design,The design of the “My Courses” page does not match the expected or provided design (UI/UX). This creates inconsistency in the user experience and affects overall visual alignment.,"1. Log in as a student
+2. Click my program
+3. Navigate to any “My Courses”
+4. Compare the current design with the expected design",The “My Courses” page design should match the approved or expected UI/UX design.,The current design not matching the expected design.,Major,High,New,New ,New ,https://drive.google.com/file/d/1MYaMI9Cgtyd8POJkoly42zEoXsfZ4k1P/view?usp=drive_link,Lamiya QA,
+,APK_MC11,,Video Section Not Working Properly When Clicking Episode in My Course,"When a user clicks on any episode within a course, the video section does not function properly. This affects the learning experience as users are unable to watch the selected content smoothly.","1. login as a student
+2. Go to “My program”
+3. Open any course
+4. Click on any episode
+5. Observe the video section",The selected episode video should load and play correctly without issues.,The video section does not work properly when an episode is selected.,Critical,High,New,New ,New ,https://drive.google.com/file/d/1Eg3fmyuEbEEfbijACR2pSsWup3aUMvAV/view?usp=drive_link,Lamiya QA,
+,APK_MC12,,Inconsistent Course Content Loading Issue,"One course loads and displays content properly, while another course does not load any content at all. ","1. Log in as a student
+2. Go to “My Courses”
+3. Open a course (Course A) → content loads correctly
+4. Open another course (Course B) → no content is loaded",All courses should load and display their content properly.,"One courses load correctly, while others do not load any content.",Critical,High,New,New ,New ,https://drive.google.com/file/d/1m0BotaCx13ztH3ZC4S2pvj0jYDDCxFlj/view?usp=drive_link,Lamiya QA,
+,APK_MC13,,Course Shows 30% Complete Even After Finishing,"The course is already completed and the certificate is generated, but it still shows only 30% completion in “My Courses.”","1. Complete a course
+2. Get the certificate
+3. Go to “My Courses",Course should show 100% completed,Course shows 30% completed,Major,High,New,New ,New ,https://drive.google.com/file/d/1b6ucFIs8BkUR1mp5tvZj1nEuIsvloUqy/view?usp=drive_link,Lamiya QA,
+,APK_Cer14,Certificate,Certificate Download failed,"When clicking “Tap here to Download,” a success message is shown, but the certificate file cannot be found in the downloaded files.","1. Go to certificate section
+2. “Tap here to Download”
+3. success message
+4. Check downloaded files",Certificate should be downloaded and visible in device storage,"Download shows successful, but certificate download failed",Critical,High,New,New ,New ,"https://drive.google.com/file/d/1FFPQ3rK_RlXn2yrINXkxZ-yY67aDIT2Y/view?usp=drive_link
+
+
+https://drive.google.com/file/d/1s8r8uzm4Rlmx7yblwsVWGb3fPaduOl3N/view?usp=drive_link",Lamiya QA,
+,APK_GR15,Growth,Incorrect Filter Options in “All Programs” Section,"In the filter section under “All Programs,” the available filter options are incorrect. Instead of showing categories, it displays course price, which does not match the expected functionality.","1. Log in to the app
+2. Click on Favourite button
+3. Navigate to All Programs
+4. Click on Filter
+5. Observe the filter options",The filter should display Categories as an option.,The filter displays Course Price ,Major,High,New,New ,New ,https://drive.google.com/file/d/1evCkiTdo4cG06PpqyXHu4TsDGtw_oewi/view?usp=drive_link,Lamiya QA,
+,APK_GR16,,Incorrect “Sort By” Options – Course Price Should Not Be Included,The “Sort By” section currently includes an incorrect option (Course Price). ,"1. Log in to the app
+2. Click on Favourite
+3. Navigate to All Programs
+4. Click on sort by 
+5. Observe the sort by options","The “Sort By” section should only include:
+
+Relevance (Default)
+Popular Courses
+Newest Courses
+Rating","The “Sort By” section includes Course Price, which should not be present.",Major,High,New,New ,New ,https://drive.google.com/file/d/1b8g7el7waLD9hTquP16eaYLIYgtaivzF/view?usp=drive_link,Lamiya QA,
+,APK_GR17,,Filter & Sort Panel Does Not Close on Outside Click,"The Filter and Sort panel opens as a half-screen overlay. When clicking outside the panel (empty space), it should close, but it does not.","1. Open the app
+2. to Filter / Sort By
+3. Panel opens in half screen
+4. Click on empty space outside the panel",The panel should close when clicking outside,The panel does not close and remains open,Major,High,New,New ,New ,https://drive.google.com/file/d/1r0uyNSSQkpNdfRABVTGNupl8W7i1rlHH/view?usp=drive_link,Lamiya QA,
+Guest User,APK_CD18,Course Details,Checkout Page and Enroll Button Visible for Guest Users,"When a guest user opens the app and clicks on a course, the checkout page is shown. This should not happen, as guest users are not allowed to enroll or proceed to checkout.","1. Open the app without logging in
+2. Click on any course
+3. Observe the course details and checkout flow",Checkout page and “Enroll Now” button should not be visible for guest users,Checkout page is shown and “Enroll Now” button is visible for guest users,Major,High,New,New ,New ,"https://drive.google.com/file/d/1CdyB2Uec_wOGFsJO1bfilM2IozXFHVwM/view?usp=drive_link
+
+
+https://drive.google.com/file/d/1C4zT80XfHVJ6-Mrc-ndRJ14R5ZbK2M2p/view?usp=drive_link",Lamiya QA,

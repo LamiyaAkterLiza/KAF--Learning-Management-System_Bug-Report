@@ -1,0 +1,36 @@
+Project Name,Project Link,Bug ID,Bug Title,Description,Steps to Reproduce,Expected Result,Actual Result,Severity,Priority,QA Status,DEV Status,Attachment,Reported By,Final_Status
+KAF- Learning Management System (Organization Panel),"
+https://kaflms.razinsoft.com/admin
+
+
+Email : razin.org@yopmail.com
+Pass- secret123
+",Org-01,Unnecessary Language Option (BN) Displayed in Language Selector in org panel,"The language selector currently displays three options: English (EN), Arabic (AR), and Bengali (BN). However, only English and Arabic should be available. ","1. Open the organization panel
+2. Click on the language selector dropdown
+3. observe the available language options",Only “English (EN)” and “Arabic (AR)” should be displayed in the language selector.,“Bengali (BN)” option is also displayed along with English and Arabic.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1aRGJNVoZd3rL8ZSEaMd0sEpFb5XNQ1h1/view?usp=drive_link,Lamiya QA,
+,,Org-02,Incorrect Total Transaction Amount Calculation ,"In the organization panel, the total transaction amount is not being calculated accurately. The displayed total transactions is 0, which may lead to incorrect financial reporting.","1. Go to the organization Panel dashboard 
+2. Navigate to the Transactions section
+3. Check the current panel amount",The total transaction amount should accurately reflect the parcased current plan.,Displayed the total transaction amount is 0,Critical,High,Re-test,Fixed ,https://drive.google.com/file/d/1P2gE8co1KolhY-qQEW0dXumqnxhE49E-/view?usp=drive_link,Lamiya QA,
+,,Org-03,Course Management – Hide Specific Fields on Course Overview Page,"On the Course Overview page in Course Management, several elements are currently visible that should be hidden. These include:
+Regular Price, Offer Price, Total Transactions, Course Edit Button, Create Chapter Button, Course Price","1. Go to Org panel
+2. In course management, click course
+3. click course for course overview
+4. Observe the course overview page","The following fields and buttons should be hidden on the Course Overview page:
+Regular Price, Offer Price Total Transactions, Course Edit Button, Create Chapter Button, Course Price",All the above fields and buttons are currently visible.,Major,High,Re-test,Fixed ,https://drive.google.com/drive/folders/1Qa7n6bafQ6ocNBygzUHeI3rO3kC-fFlM?usp=drive_link,Lamiya QA,
+,,Org-04,Settings Option Should Be Hidden,"In the Organization Panel, the Settings option is currently visible, but it should be hidden for organization users based on role requirements.","1. Log in to the Organization Panel.
+2. Observe the sidebar or menu options.
+3. Locate the Settings option.",The Settings option should not be visible in the Organization Panel.,The Settings option is visible to organization users.,Major,High,New,New ,https://drive.google.com/file/d/15eTc_VsVYU6Jx3l-jwo0Yqr1P_R27xzl/view?usp=drive_link,Lamiya QA,
+,,Org-05,Dashboard from Profile Icon Not Updated,"In the Organization Panel, when clicking the profile icon and then selecting Dashboard, the page shown is not updated and does not match the current/latest dashboard design or data.","1. Log in to the Organization Panel.
+2. Click on the profile icon.
+3. Click on Dashboard.
+4. Observe the displayed dashboard.","The dashboard accessed from the profile icon should display the latest/updated dashboard UI and data, consistent with the main dashboard",An outdated or inconsistent dashboard is displayed.,Critical,High,New,New ,https://drive.google.com/file/d/15FJXnHlMKPkNN2TETYX0TDGwlIDFhltf/view?usp=drive_link,Lamiya QA,
+,,Org-06,Logout Popup – Incorrect Button Text “Yes Delete It”,"In the logout confirmation popup, the confirmation button is incorrectly labeled as “Yes Delete It”, which is misleading and not appropriate for a logout action.","1. Click on the Logout button.
+2. Observe the confirmation popup.","The confirmation button should display appropriate text such as:
+
+“Yes, Logout” or “Confirm Logout”",The button text is shown as “Yes Delete It”.,Major,High,New,New ,https://drive.google.com/file/d/1bR03vYA-in7D0ajWBUcN2pX8GGcyKPiZ/view?usp=drive_link,Lamiya QA,
+,,Org-07,Organization Sees Old Notifications,"After registering and logging in with a new organization account, the notification section displays older notifications that do not belong to the new organization.","1. Register a new organization account
+2. Log in with the new organization credentials
+3. Go to the notification section",The notification section should only show notifications relevant to the newly registered organization (or be empty if none exist).,"Older notifications are displayed, which are not related to the new organization.",Major,High,New,New ,https://drive.google.com/file/d/1TJo_iCFDSKonQQWzS1zZV0WZ4R02GMcb/view?usp=drive_link,Lamiya QA,
+,,Org-08,No Verification in Organization Registration Process,"There is no verification process during organization registration. Users can sign up without any email verification, OTP, or SMTP validation, which creates a security risk.","1. Go to organization registration
+2. Sign up with any email
+3. Complete registration","User should go through a verification process (e.g., email verification, OTP, or SMTP validation)",Registration is completed without any verification process,Critical,High,New,New ,,Lamiya QA,
