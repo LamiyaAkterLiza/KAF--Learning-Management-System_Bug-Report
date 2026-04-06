@@ -76,7 +76,7 @@ Includes organization-specific issues such as:
 
 ## 📁 Repository Structure
 
-```
+
 KAF-LMS-Bug-Reports/
 │
 ├── Website/
@@ -84,7 +84,7 @@ KAF-LMS-Bug-Reports/
 ├── Organization-Panel/
 ├── attachments/
 └── README.md
-```
+
 
 ---
 
