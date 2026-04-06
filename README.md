@@ -116,8 +116,7 @@ All supporting files (screenshots, videos, documents) are stored in the `/attach
 
 ## 👤 Reported By
 
-**QA Team**/n
-Lamiya – QA Engineer
+**Lamiya** – QA Engineer
 
 ---
 
