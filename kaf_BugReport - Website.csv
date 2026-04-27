@@ -1,0 +1,103 @@
+Project Name,Project Link,Bug ID,Bug Title,Description,Steps to Reproduce,Expected Result,Actual Result,Severity,Priority,QA Status,DEV Status,Attachment,Reported By,Final_Status
+,,Web-01,Logo is too short,Logo is too short. all the content view perfectly but branding logo is too short,"1. Go to website
+2. observe the logo ",Re-size the logo size as client expected,Logo is too short,Critical,High,Re-test,Fixed ,https://drive.google.com/file/d/175wNGrzccnf6qV-GIrvfvDT3ik6lfQOo/view?usp=drive_link,Lamiya QA,Done
+,https://grow.joinkaf.ae/,Web-02, Incorrect Tab Title Displayed (KAF LMS Instead of KAF),"When opening the application in a new browser tab, the tab title is displayed as “KAF LMS” instead of the expected “KAF”. This does not match the intended branding.","1. Open the application in a browser
+2. Open it in a new tab
+3. Check the tab title",The tab title should be displayed as “KAF”.,The tab title is displayed as “KAF LMS” ,Critical,High,Re-test,Fixed ,https://drive.google.com/file/d/1GH6y9mVf1AFH4maa0LOWbH-pcYdai0Kx/view?usp=drive_link,Lamiya QA,Done
+,,Web-03,Unnecessary Language Option (BN) Displayed in Language Selector,"The language selector currently displays three options: English (EN), Arabic (AR), and Bengali (BN). However, only English and Arabic should be available. ","1. Open the website
+2. Click on the language selector dropdown
+3. observe the available language options",Only “English (EN)” and “Arabic (AR)” should be displayed in the language selector.,“Bengali (BN)” option is also displayed along with English and Arabic.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1aRGJNVoZd3rL8ZSEaMd0sEpFb5XNQ1h1/view?usp=drive_link,Lamiya QA,Done
+,,Web-04,Incorrect Error Message Display,"leave the required password field click set password, the system shows an incorrect or unclear error message. The message does not properly describe the issue, which may confuse users.","1. Go to the login as student first time
+2.after otp verification, nevigate to password page 
+3. Leave required field
+4. click the set password button 
+5. observe the error msg showed",The system should display a clear and accurate error message describing the exact issue.,"An incorrect or unclear error message is shown, which does not properly indicate the problem.",Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1dknNP12EYVGXEG_96UDK_P_1wjko9MNG/view?usp=drive_link,Lamiya QA,Done
+,,Web-05,“Become a Teacher” Option Should Be Removed from Footer,"The footer section currently includes a “Become a Teacher” option, which is not required. This option should be removed to keep the footer aligned with the intended design and functionality.","1.Scroll down to the footer section
+2.Locate the “Become a Teacher” option",The “Become a Teacher” option should not be displayed in the footer.,The “Become a Teacher” option is visible in the footer.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1OnkyWUFNEDZtlZeKC_iV6iqA34sqrgVA/view?usp=drive_link,Lamiya QA,Done
+,,Web-06,View profile button is not working,"The “View Profile” button is not functioning when clicked. It does not redirect to the profile page or perform any action, which prevents users from accessing profile details.","1. Go to website
+2. scroll down 
+3. Click on the “View Profile” button",when user click view profile button it should be redirected to profile details,Clicking the “View Profile” button does not trigger any action.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1JBVNQeh7faLlt-MULFJuIWajGJ9YTljT/view?usp=drive_link,Lamiya QA,Done
+,,Web-07,Unknown Categories Displayed Under “Our Popular Courses” Heading,"Under the “Our Popular Courses” section, unknown categories are being displayed that do not match the actual courses available under the purchased organization plan.","1. Go to the homepage
+2. Scroll to the “Our Popular Courses” section
+3. Observe the categories shown under the heading",Only relevant course categories should be diaplayed under the purchased organization plan.,Unknown or irrelevant categories are displayed under the “Our Popular Courses” heading.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1cSm_AVg8l4uvWlFf86gUGUuV5mGCDY6s/view?usp=drive_link,Lamiya QA,Done
+,,Web-08,Organization Profile Shows Incorrect Counts After Student Login,"After a student logs in, the homepage displays the organization profile. However, the counts for total students, enrollments, and available courses in the organization profile are shown as 0, even though there is existing data.","1. Log in as a student
+2. Go to the homepage
+3. Observe the organization profile section","The organization profile should display the correct counts for students, enrollments, and available courses based on actual data.","All counts (students, enrollments, available courses) are displayed as 0.",Critical,High,Re-test,Fixed ,https://drive.google.com/file/d/1lfDuf23GljO-6mU8vDQj_lUi1krLVbcB/view?usp=drive_link,Lamiya QA,Done
+,,Web-09,Update title Text – “Become an Instructor” → “Become an Organization”,"In the website, the title currently labeled “Become an Instructor” should be updated to “Become an Organization”","1. Navigate to the landing page.
+2. Scroll the page
+3. Observe the title “Become an Instructor.”",The button should display “Become an Organization and Teach Online”,The button currently displays “Become an Instructor and Teach Online.”,Major,High,New,Fixed ,https://drive.google.com/file/d/1vcnElYbEe5b4gbKyHzFvOm-wnWBOyzGj/view?usp=drive_link,Lamiya QA,Done
+,,Web-10,Side arrow missing in both eng & arabic version,"In Top Rated Instructors,The side navigation arrow is missing in the UI for both English and Arabic versions.","1. Open the website.
+2. Switch between English and Arabic language versions.
+3. Observe the side bar in Top Rated Instructors.",The side arrow should be visible and functional in both English and Arabic versions,The side arrow is missing in both language versions.,Major,High,Re-test,Fixed ,"https://drive.google.com/file/d/1g5N4AUBwZNtK7W5z14myOWXRT9aOpayL/view?usp=drive_link
+
+
+https://drive.google.com/file/d/1gOsN2Xbuo6a0bl8xqZA-y9Aaf6FEYQuv/view?usp=drive_link",Lamiya QA,Done
+,,Web-11,Newest course position and read more button arrow position is incorrect,"In the Newest Courses section, the course positioning and the “Read More” button arrow are not displayed correctly","1. Go to the homepage
+2. Scroll to the Newest Courses section.
+3. Observe the position of course items and the “Read More” button arrow position.","Newest courses should be properly aligned and positioned.
+
+The “Read More” button arrow should be correctly aligned and directionally appropriate (LTR/RTL based on language).","Newest course items are incorrectly positioned.
+
+The “Read More” button arrow is misaligned or pointing in the wrong direction.",Major,High,Re-test,Fixed ,"https://drive.google.com/file/d/1dSBP6hfdtS5B5-OB4TDScsvGFUsaT-o4/view?usp=drive_link
+
+https://drive.google.com/file/d/12QKDR-8h2VtNFB73dV1nclQrBI8P-jy7/view?usp=drive_link",Lamiya QA,Done
+,,Web-12,"In Section Titles, Replace “Instructors” with “Organization”","On the website, multiple section titles currently use the word “Instructor(s)”, which should be updated to “Organization”","1. Go to the homepage.
+2. Locate the above-mentioned titles.","“Top Rated Instructors” → “Top Rated Organizations”
+
+“Quality Education Starts with Great Instructors” → “Quality Education Starts with Great Organizations”
+
+“Hear from Our Students & Instructors” → “Hear from Our Students & Organizations”",The titles still display “Instructor(s)”.,Major,High,Re-test,Fixed ,,Lamiya QA,Done
+,,Web-13,Error Popup Message Appears When Required Fields Are Empty on Profile Update,"When a user leaves required fields empty and clicks the Update Profile button, an error popup message is displayed.","1. Go to the profile.
+2. Leave required fields empty.
+3. Click on the Update Profile button.",Proper validation messages should be shown clearly,An error popup message appears when required fields are left empty.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1nXH5t0i6GSbvDVNtZsATT8Fb953oe9La/view?usp=drive_link,Lamiya QA,Done
+,,Web-14,“Connect Now” Button & Logo to Be Partially Hidden,"In the Contact Us section, when clicking the “Connect Now” button, the UI layout breaks and results in the button and logo being partially hidden.","1. Navigate to the Contact Us page.
+2. Click on the “Connect Now” button.
+3. Observe the layout after clicking.",The button and logo should remain fully visible and properly aligned.,The button and logo become partially hidden after clicking “Connect Now.”,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1RrZecQD7ucSkZ9Sgk0WXGTM5akYSToBv/view?usp=drive_link,Lamiya QA,Done
+,,Web-15,Certificate Not Mapped with Course,"There is no mapping between course title and certificates in the system. As a result, when a student receives a certificate, they cannot identify which course the certificate belongs to.","1. Log in as a student
+2. Complete any course
+3. Click my profile icon
+4. Click my certificate 
+5. observe the certificate sections",Each certificate should clearly display with the course name so that students can easily identify it.,"The certificate does not show the course name, so students cannot identify which course it belongs to.",Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1LCLDN8UlQ87g0Bn64gXnowRQOapocer-/view?usp=drive_link,Lamiya QA,Done
+,,Web-16,Course Shows 100% Completion Without Quiz/Exam,The system marks a course as 100% complete and generates a certificate even when the student has not completed the quiz or exam.,"1. Log in as a student
+2. Enroll in a course that includes a quiz or exam
+3. Complete only the course content (skip quiz/exam)
+4. Check the course progress and certificate","The course should not be marked as 100% complete, and the certificate should not be generated unless the student completes the quiz or exam.",The course shows 100% completion and the certificate is generated even without completing the quiz or exam.,Critical,High,Re-test,Fixed ,https://drive.google.com/file/d/1USIM1_mFx1-nRKlNdpH45jXxGCxXN-pp/view?usp=drive_link,Lamiya QA,Done
+,,Web-17,QR Code Redirect Issue ,"The QR code redirects to a different page. Also, the QR code size is too small, making it hard to scan.","1. Go to website 
+2. Scroll to footer
+3. Open the QR code
+4. Scan the QR code
+5. Observe the redirected page
+6. Check the QR code size","QR code should redirect to the correct page
+
+QR code size should be accurate","QR code redirects to a different page
+
+QR code size visibility improper",Critical,High,Re-test,Fixed ,,Lamiya QA,Done
+,,Web-18,Scrolling Issue on Instructor Page,"The Instructor page has a scrolling issue, which affects smooth navigation and user experience.","1. Open the app
+2. Go to Instructor page
+3. Try to scroll the page",Page should scroll smoothly without any issues,Scrolling is not working properly over all the page,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1MsdjucHTKECpj-nh_FKWpoQQxpAhX_92/view?usp=drive_link,Lamiya QA,Done
+,,Web-19,Course Fee Not Hidden in Sort By List in Organization Profile,"In the organization profile, the “Sort By” list still shows the course fee option, which should be hidden.","1. login as student in website
+2. Scroll down 
+3 Click Viiew Profile 
+4. Click “Sort By” options
+5. Check the available sorting options",Course fee options should not be visible in the “Sort By” list,Course fee options is still visible in the “Sort By” list,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1rD-wYn67-H2It9KJtrJDFjWG0ZQn7U-R/view?usp=drive_link,Lamiya QA,Done
+,,Web-20,Quiz Not Auto Submitted When Timer Reaches 0,"When the quiz timer reaches 0 seconds, the quiz remains active. There is no auto-submit or popup, and users can still use Skip & Next buttons.","1. Start a quiz
+2. Wait until the timer reaches 0 seconds
+3. Observe the quiz behavior",Quiz should auto-submit or show a timeout popup and restrict further actions,"Quiz stays active with no popup, and Skip & Next buttons still work at 0 seconds",Critical,High,Re-test,Fixed ,https://drive.google.com/file/d/1gxF7-BZrlSiy9Lqxe7Bf9N4JSocWRDWm/view?usp=drive_link,Lamiya QA,Done
+,,Web-21,Completed exam Can Be Retaken,"Quizzes that have already been completed can be attended again, which may affect result integrity.","1. Complete a quiz
+2. Go back to the same quiz
+3. Try to attend it again",Completed quizzes should not be retakable,Users can retake quizzes even after completing them,Critical,High,Re-test,Fixed ,https://drive.google.com/file/d/1M2ZHp9naVat7RubjJ1U_7BGgYpnPDkgA/view?usp=drive_link,Lamiya QA,Done
+,,Web-22,Incorrect Error Message Display,,1. Go to the login with wrong cradential,The system should display a clear and accurate error message describing the exact issue.,"An incorrect or unclear error message is shown, which does not properly indicate the problem.",Major,High,Re-test,Fixed ,https://drive.google.com/file/d/19-qfDJyv3ikDEZtmI5qEZATCaCF4Us65/view?usp=drive_link,Lamiya QA,Done
+,,Web-23,Incorrect Labeling: “Instructor” Used Instead of “Organization”,"In the organization management section, the term “Instructor” is used in multiple places where it should be labeled as “Organization.”","1. Go to the organization management in admin panel
+2. Observe the labels and text",All relevant labels and text should use “Organization” instead of “Instructor.”,“Instructor” is displayed instead of “Organization” in multiple places.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1TxcqFkCRx-621McNyqEnwQStYY-ibS6m/view?usp=drive_link,Lamiya QA,Done
+,,Web-24,Quiz/Exam Accessible After Course Expiry via Free Content,"Even after a course expires, if any class is marked as free content, students can still access the quiz or exam through that class.","1. Enroll in a course that has free content
+2. Let the course expire
+3. Access the free content class
+4. Attempt to access the quiz or exam","After course expiry, students should not be able to access quizzes or exams, regardless of free content availability.",Students can access quizzes or exams through free content even after the course has expired.,Critical,High,Re-test,Fixed ,https://drive.google.com/file/d/17wTZ3r_FH1n87Y_aoMxjns3VEcf5_aI5/view?usp=drive_link,Lamiya QA,Done
+,,Web-25,Course Details Not Opening When Clicking on Course Card,"Clicking on a course card does not open the course details page. However, clicking specifically on the course name successfully opens the details.","1. Go to my courses 
+2. Click on any course card (excluding the course name)
+3. Then click on the course name",Clicking anywhere on the course card should open the course details page.,Course details only open when clicking on the course name; clicking on the rest of the card does not work.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/18gSttpcdQ9JUQbwxzpz3c9TAfpVy8mP4/view?usp=drive_link,Lamiya QA,Done
+,,Web-26,User Profile and Password Fields Combined,"The user profile section and the password update fields (New Password & Confirm Password) are combined into a single section, which affects clarity and usability.","1. Log in as a user
+2. Go to the profile page
+3. Observe the layout of profile information and password fields",User profile information and password update fields should be in separate sections for better clarity and user experience.,User profile and password fields (New Password & Confirm Password) are combined in one section.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/11pOKuSOw8zo7QVkvFjN-QQcqW6lw-vzf/view?usp=drive_link,Lamiya QA,Done
+,,Web-27,Incorrect Label in Footer (Register Option),The footer does not display the correct label for organization registration. It should clearly show “Register as Organization.”,"1. Go to the website footer
+2. Check the registration option text",The label should be displayed as “Register as Organization.”,The correct label “login to admin” is shown.,Major,High,Re-test,Fixed ,https://drive.google.com/file/d/1ZY80Irk5RdJGQKH3MvAQmQpAZFkE1B7a/view?usp=drive_link,Lamiya QA,Done
