@@ -10,9 +10,9 @@ The purpose of this repository is to track, manage, and resolve system issues ef
 
 ## 🔗 Project Links
 
-* Website: https://kaflms.razinsoft.com/
-* Admin Panel: https://kaflms.razinsoft.com/admin
-* Organization Panel: https://kaflms.razinsoft.com/admin
+* Website: [https://grow.joinkaf.ae/]
+* Admin Panel: [https://grow.joinkaf.ae/admin]
+* Organization Panel: [https://kaflms.razinsoft.com/admin](https://grow.joinkaf.ae/org/dashboard)
 
 ---
 
