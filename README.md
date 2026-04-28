@@ -12,7 +12,7 @@ The purpose of this repository is to track, manage, and resolve system issues ef
 
 * Website: [https://grow.joinkaf.ae/]
 * Admin Panel: [https://grow.joinkaf.ae/admin]
-* Organization Panel: [https://kaflms.razinsoft.com/admin](https://grow.joinkaf.ae/org/dashboard)
+* Organization Panel: [https://grow.joinkaf.ae/org]
 
 ---
 
@@ -45,21 +45,38 @@ Includes organization-specific issues such as:
 * Registration and verification gaps
 * Notification mismatches
 
+  ## 📱 Application Scope
+
+The testing covered core mobile functionalities including:
+
+- User authentication (Login/Signup)
+- Course access and navigation
+- Quiz and exam functionality
+- Profile management
+- Dashboard behavior
+- Localization (language handling)
+
 ---
 
-## 🐞 Bug Summary
+### 🐞 Bug Summary
 
 ### 🔴 Critical Issues
-
+*WEB & ADMIN*
 * Payment bypass via receipt upload without validation
 * Course marked complete without quiz/exam completion
 * Quiz not auto-submitted when timer reaches 0
 * Certificate not mapped with course
 * Incorrect transaction calculations
 * QR code redirect issue
+  
+*Application*
+- Course marked as complete without completing quiz/exam
+- Quiz not auto-submitted when timer reaches 0
+- Certificate not properly linked with completed course
+- Payment or access flow inconsistencies (if applicable)
 
 ### 🟠 Major Issues
-
+*WEB & ADMIN*
 * UI misalignment and layout breaks
 * Incorrect labels and titles
 * Language selector showing unnecessary options
@@ -67,11 +84,23 @@ Includes organization-specific issues such as:
 * Scrolling issues on instructor page
 * Sorting/filtering issues
 
-### 🟡 Minor Issues
+*Application*
+- UI misalignment across screens
+- Incorrect labels and titles
+- Dashboard data inconsistencies
+- Navigation issues between screens
+- Language selector showing unsupported options
+- Scrolling issues in course/instructor sections
 
+### 🟡 Minor Issues
+*WEB & ADMIN*
 * Incorrect button labels
 * Text/content mismatches
 
+*Application*
+- Button label inconsistencies
+- Text/content mismatches
+- Minor UI spacing/alignment issues
 ---
 
 ## 📁 Repository Structure
@@ -82,6 +111,7 @@ KAF-LMS-Bug-Reports/
 ├── Website/
 ├── Admin-Panel/
 ├── Organization-Panel/
+├── Application/
 ├── attachments/
 └── README.md
 
@@ -122,8 +152,9 @@ All supporting files (screenshots, videos, documents) are stored in the `/attach
 
 ## 📌 Status
 
-* Multiple bugs: Fixed
-* Some bugs: Re-test / Pending
+- ✅ 100% of reported bugs resolved
+- ✅ Fully re-tested and verified by QA
+- 🚀 System ready for production use
 
 ---
 
